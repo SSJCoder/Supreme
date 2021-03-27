@@ -11,10 +11,10 @@ add (a:num, b:num) : num
   ret a+b;
 
 // print functions:
-print_str (a:str)
+print_str (a:str) : void
   a
 
-print_num (a:num)
+print_num (a:num) : void
   a
 
 my_func:void
