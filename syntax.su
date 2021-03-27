@@ -17,7 +17,7 @@ print_str (a:str) : void
 print_num (a:num) : void
   a
 
-my_func:void
+my_func () : void
   -> // this indicates a block
     x := 10; // := means type inference
   // x not valid here
